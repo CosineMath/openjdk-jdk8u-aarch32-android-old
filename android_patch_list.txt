@@ -1,0 +1,42 @@
+getpwuid_r() is not sure.
+maybe need to check again.
+
+jdk/src/solaris/native/sun/nio/fs/LinuxNativeDispatcher.c checked
+jdk/src/solaris/native/sun/nio/fs/UnixNativeDispatcher.c checked
+jdk/src/solaris/native/com/sun/security/auth/module/Unix.c checked
+hotspot/src/os/linux/vm/perfMemory_linux.cpp checked
+jdk/src/solaris/native/sun/security/pkcs11/j2secmod_md.c checked
+jdk/src/solaris/native/sun/nio/ch/DatagramDispatcher.c ckecked
+jdk/src/solaris/native/sun/nio/ch/Net.c checked
+jdk/src/solaris/native/sun/nio/ch/NativeThread.c checked
+jdk/src/solaris/native/sun/nio/ch/FileChannelImpl.c checked, maybe need ro check sendfile64 again
+
+//Headless, not important.
+
+jdk/src/solaris/native/sun/awt/awt_GraphicsEnv.h checked
+jdk/src/solaris/native/sun/awt/splashscreen/splashscreen_sys.c checked
+jdk/src/solaris/native/sun/awt/awt_GraphicsEnv.c checked
+jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c checked
+jdk/src/solaris/native/sun/xawt/XToolkit.c checked
+//
+
+jdk/src/solaris/native/sun/management/OperatingSystemImpl.c checked
+jdk/src/solaris/native/sun/tools/attach/LinuxVirtualMachine.c checked
+jdk/src/solaris/native/java/lang/childproc.c checked
+jdk/src/solaris/native/java/lang/java_props_md.c checked
+jdk/src/solaris/native/java/net/PlainSocketImpl.c checked
+jdk/src/solaris/native/java/net/net_util_md.c checked
+jdk/src/solaris/native/java/net/linux_close.c checked
+jdk/src/solaris/native/java/net/PlainDatagramSocketImpl.c checked
+jdk/src/solaris/native/java/io/UnixFileSystem_md.c checked
+jdk/src/solaris/native/java/io/io_util_md.c checked
+jdk/src/solaris/native/java/util/TimeZone_md.c checked
+jdk/src/solaris/native/common/jni_util_md.c checked
+jdk/src/solaris/npt/utf_md.c checked
+jdk/src/solaris/instrument/EncodingSupport_md.c checked
+jdk/src/solaris/javavm/export/jvm_md.h checked
+jdk/src/share/native/java/util/zip/zip_util.c checked
+jdk/src/share/demo/jvmti/hprof/hprof_error.c checked
+hotspot/src/os/linux/vm/os_linux.cpp checked
+hotspot/src/os/linux/vm/jvm_linux.cpp checked
+hotspot/src/os/posix/vm/os_posix.cpp checked
